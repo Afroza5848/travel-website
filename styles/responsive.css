@@ -20,7 +20,16 @@
     .banner .banner-content{
         width: 95%;
     }
-
+/* popular tour */
+    /* .popular-tour-container{
+        flex-direction: column;
+    } */
+    .popular-tour-container > .popular-tour-content{
+        flex-basis: 100%;
+    }
+    .popular-tour-container > .popular-tour-img{
+        flex-basis: 100%;
+    }
     /* media end */
 }
 
@@ -46,6 +55,31 @@
     .banner .banner-content{
         width: 90%;
     }
+    /* popular tour */
+
+    /* /* .popular-tour-container{
+        flex-direction: column;
+    } */
+   .popular-tour-container > .popular-tour-content , .popular-tour-img{
+        flex-basis: 100%;
+    }
+    .popular-tour-container > .popular-tour-img{
+        flex-basis: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* media end */
 }
