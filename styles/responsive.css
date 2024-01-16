@@ -108,6 +108,26 @@
     .deals-content-2{
       justify-content: center;
     }
+
+    /* watch vedio section */
+
+    .perfect-place-watch{
+      flex-direction: column;
+      height: 100vh;
+      gap: 24px;
+    }
+    .place-content{
+      width: 100%;
+    }
+    .parfect-video{
+      width: 100%;
+     
+    }
+    /* .parfect-video video{
+      margin-bottom: 100px;
+    } */
+
+
       /* newsletter section */
 
       .newsletter-wrap{
@@ -242,6 +262,21 @@
       .deals-content-2{
         justify-content: center;
       }
+
+      /* watch vedio section */
+
+    .perfect-place-watch{
+      flex-direction: column;
+      height: 100vh;
+      gap: 24px;
+    }
+    .place-content{
+      width: 100%;
+    }
+    .parfect-video{
+      width: 100%;
+     
+    }
        /* newsletter section */
 
        .newsletter-wrap{
