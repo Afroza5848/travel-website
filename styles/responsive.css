@@ -62,7 +62,23 @@
       .comn-style{
         grid-template-rows: repeat(7 , 1fr);
       }
-
+      .comn-style h3{
+        font-size: 1rem;
+      }
+      /* tour section */
+      .owner-container{
+        flex-direction: column;
+        
+      }
+      .owner{
+        margin-bottom: 90px;
+      }
+      .tour-tittle h2{
+        font-size: 30px;
+      }
+      .tour-tittle p{
+        width: 100%;
+      }
 
       /* service section */
       .service-wrapper{
@@ -134,6 +150,59 @@
     .popular-tour-container > .popular-tour-img{
         flex-basis: 100%;
     }
+
+
+    /* chosing destination */
+    .place-1{
+        grid-column: 1/span 6;
+        grid-row: 1/span 1;
+      }
+      .place-2{
+        grid-column: 7/span 6;
+        grid-row: 1/span 1;
+      }
+      .place-3{
+        grid-column: 1/span 6;
+        grid-row: 2/span 1;
+      }
+      .place-4{
+        grid-column: 7/span 6;
+        grid-row: 2/span 1;
+      }
+      .place-5{
+        grid-column: 1/span 6;
+        grid-row: 3/span 1;
+      }
+      .place-6{
+        grid-column: 7/span 6;
+        grid-row: 3/span 1;
+      }
+      .place-7{
+        grid-column: 1/span 12;
+        grid-row: 4/span 1;
+      }
+      .comn-style{
+        grid-template-rows: repeat(4 , 1fr);
+      }
+      .comn-style h3{
+        font-size: 1rem;
+      }
+
+      /* tour section */
+      .owner-container{
+        flex-direction: column;
+        
+      }
+      .owner{
+        margin-bottom: 90px;
+      }
+      .tour-tittle h2{
+        font-size: 30px;
+      }
+      .tour-tittle p{
+        width: 100%;
+      }
+
     /* service section */
     .service-wrapper{
         grid-template-rows: repeat(3 , 1fr);
