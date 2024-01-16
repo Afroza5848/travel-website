@@ -96,6 +96,18 @@
         grid-column: 1/span 12;
         grid-row: 3/span 1;
       }
+
+      /* deals section */
+      .deals-details{
+        width: 100%;
+    }
+    .discount-content{
+      justify-content: center;
+      padding: 30px 12px;
+    }
+    .deals-content-2{
+      justify-content: center;
+    }
       /* newsletter section */
 
       .newsletter-wrap{
@@ -218,6 +230,17 @@
       .service-3{
         grid-column: 1/span 12;
         grid-row: 3/span 1;
+      }
+
+      /* deals section */
+      .deals-details{
+          width: 100%;
+      }
+      .discount-content{
+        justify-content: center;
+      }
+      .deals-content-2{
+        justify-content: center;
       }
        /* newsletter section */
 

@@ -354,6 +354,84 @@ nav ul li:first-child a{
  }
  
 /* tour owner section ends */
+/* deals discount section */
+.discount-content{
+    background-image: url(../Images/Group39.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3.5rem;
+    border-radius: 16px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px auto;
+}
+.deals-details{
+    width: 50%;
+    padding: 30px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-bottom: 20px;
+}
+
+.date .clock i{
+    color: #FF5400;
+    font-size: 1rem;
+}
+.date .clock span{
+    color: #5A5A5D;
+    font-size: 1rem;
+}
+.deals-content h3{
+    color: #131318;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.deals-content p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+.deals-content span{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 13px;
+}
+.deals-content .book-btn{
+    background-color: #FF5400;
+    color: #fff;
+    margin-top: 14px;
+}
+.deals-content-2{
+    background-image: url(../Images/Group40.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* deals discount section ends */
 
 /* newsletter section stars */
 
