@@ -49,18 +49,18 @@ nav{
     align-items: center;
     margin: 50px 0;
 }
-nav .logo{
+.logo{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
 }
-nav .logo h2{
+.logo h2{
     color: #131318;
     font-size: 2.1rem;
     font-weight: 800;
 }
-nav .logo h2 > .special{
+.logo h2 > .special{
     color: #FF5400;
 }
 nav ul{
@@ -313,7 +313,7 @@ nav ul li:first-child a{
     grid-template-columns: repeat(12 , 1fr);
     grid-template-rows: repeat(1 , 1fr);
     gap: 24px;
-    margin: 20px auto 50px;
+    margin: 50px auto 50px;
     
 }
 .newsletter-form{
@@ -345,7 +345,7 @@ nav ul li:first-child a{
     font-weight: 400;
     line-height: 1.3rem;
 }
-.newsletter-form .line{
+.line{
     width: 100%;
     height: 1px;
     background:  rgba(19, 19, 24, 0.10);
@@ -400,3 +400,36 @@ nav ul li:first-child a{
     font-weight: 800;
 }
 /* newsletter section ends */
+
+/* footer section stars */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 60px 0px;
+}
+.footer-content{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+   
+}
+/* .footer-content *{
+    margin-bottom: 1rem;
+} */
+.footer-content h2 ,p{
+    margin-bottom: 15px;
+}
+
+.footer-content .icon{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.footer-content .icon a{
+    font-size: 1.3rem;
+    color: #131318;
+}
+.footer-content .line{
+    margin: 40px auto;
+}
+/* footer section ends */
