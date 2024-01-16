@@ -120,8 +120,8 @@
       width: 100%;
     }
     .parfect-video{
-      width: 100%;
-     
+        width: 100%;
+      /* margin-bottom: 150px; */
     }
     /* .parfect-video video{
       margin-bottom: 100px;
@@ -136,10 +136,15 @@
       .newsletter-form{
         grid-column: 1/span 12;
         grid-row: 1/span 1;
+        margin-top: 100px;
       }
       .newsletter-image{
         grid-column: 1/span 12;
         grid-row: 2/span 1;
+      }
+      
+      .newsletter-wrap .newsletter-image .save{
+        max-width: 250px;
       }
       /* footer section */
      .footer-content{
@@ -170,6 +175,7 @@
     }
     .banner .banner-content{
         width: 90%;
+        margin-bottom: 100px;
     }
     /* popular tour */
 
@@ -275,7 +281,7 @@
     }
     .parfect-video{
       width: 100%;
-     
+     /* margin-bottom: 150px; */
     }
        /* newsletter section */
 
@@ -285,6 +291,7 @@
       .newsletter-form{
         grid-column: 1/span 12;
         grid-row: 1/span 1;
+        margin-top: 70px;
       }
       .newsletter-image{
         grid-column: 1/span 12;
