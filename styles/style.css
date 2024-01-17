@@ -425,7 +425,7 @@ nav ul li:first-child a{
 /* deals discount section ends */
 
 /* perfect-place-watch stars */
-    .perfect-place-watch{
+    /* .perfect-place-watch{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -450,6 +450,37 @@ nav ul li:first-child a{
         background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 
 
+    } */
+    .perfect-place-watch{
+        display: grid;
+        grid-template-columns: repeat(12 , 1fr);
+        grid-template-rows: repeat(1 , 1fr);
+        gap: 24px;
+    }
+    .place-content{
+        grid-column: 1/span 6;
+        grid-row: 1/span 1;
+    }
+    .parfect-video{
+        grid-column: 7/span 6;
+        grid-row: 1/span 1;
+    }
+    .parfect-video video{
+        /* height: 100%; */
+        border-radius: 16px;
+        background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+
+
+    }
+    .parfect-video iframe{
+        border-radius: 16px;
+    }
+    .place-content ul li{
+        color: #131318;
+        font-weight: 700;
+        color: 1rem;
+        line-height: 1.3rem;
+        margin-bottom: 10px;
     }
 /* perfect-place-watch ends */
 

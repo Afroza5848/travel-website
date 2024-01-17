@@ -1,5 +1,9 @@
 /* mobile  device responsive */
 @media screen and (max-width: 600px) {
+
+  .container{
+    width: 80%;
+  }
     nav ul > li{
         display: none;
     }
@@ -108,24 +112,27 @@
     .deals-content-2{
       justify-content: center;
     }
+    .date{
+      flex-direction: column;
+      gap: 10px;
+    }
 
     /* watch vedio section */
 
     .perfect-place-watch{
-      flex-direction: column;
-      height: 100vh;
-      gap: 24px;
+     
+     grid-template-rows: repeat(2 , 1fr);
+     gap: 30px;
     }
     .place-content{
-      width: 100%;
+      grid-column: 1/span 12;
+      grid-row: 1/span 1;
     }
     .parfect-video{
-        width: 100%;
-      /* margin-bottom: 150px; */
+        grid-column: 1/span 12;
+        grid-row: 2/span 1;
     }
-    /* .parfect-video video{
-      margin-bottom: 100px;
-    } */
+   
 
 
       /* newsletter section */
@@ -268,21 +275,24 @@
       .deals-content-2{
         justify-content: center;
       }
+      
+   
 
-      /* watch vedio section */
+     /* watch vedio section */
 
-    .perfect-place-watch{
-      flex-direction: column;
-      height: 100vh;
-      gap: 24px;
-    }
-    .place-content{
-      width: 100%;
-    }
-    .parfect-video{
-      width: 100%;
-     /* margin-bottom: 150px; */
-    }
+     .perfect-place-watch{
+     
+      grid-template-rows: repeat(2 , 1fr);
+      gap: 30px;
+     }
+     .place-content{
+       grid-column: 1/span 12;
+       grid-row: 1/span 1;
+     }
+     .parfect-video{
+         grid-column: 1/span 12;
+         grid-row: 2/span 1;
+     }
        /* newsletter section */
 
        .newsletter-wrap{
